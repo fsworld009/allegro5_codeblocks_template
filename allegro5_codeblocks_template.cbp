@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="allegro5_codeblocks_template" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/allegro5_codeblocks_template" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="liballegro-5.0.10-monolith-static-mt-debug.a" />
+					<Add library="liballegro-5.0.10-static-mt-debug.a" />
+					<Add library="liballegro_acodec-5.0.10-static-mt-debug.a" />
+					<Add library="liballegro_audio-5.0.10-static-mt-debug.a" />
+					<Add library="libvorbisfile-1.3.2-static-mt-debug.a" />
+					<Add library="libvorbis-1.3.2-static-mt-debug.a" />
+					<Add library="liballegro_color-5.0.10-static-mt-debug.a" />
+					<Add library="liballegro_dialog-5.0.10-static-mt-debug.a" />
+					<Add library="liballegro_font-5.0.10-static-mt-debug.a" />
+					<Add library="liballegro_image-5.0.10-static-mt-debug.a" />
+					<Add library="liballegro_memfile-5.0.10-static-mt-debug.a" />
+					<Add library="liballegro_physfs-5.0.10-static-mt-debug.a" />
+					<Add library="liballegro_primitives-5.0.10-static-mt-debug.a" />
+					<Add library="liballegro_ttf-5.0.10-static-mt-debug.a" />
+					<Add library="libdumb-0.9.3-static-mt-debug.a" />
+					<Add library="libFLAC-1.2.1-static-mt-debug.a" />
+					<Add library="libfreetype-2.4.8-static-mt-debug.a" />
+					<Add library="libogg-1.2.1-static-mt-debug.a" />
+					<Add library="libzlib-1.2.5-static-mt-debug.a" />
+					<Add library="libopenal-1.14-static-mt-debug.a" />
+					<Add library="libgdiplus.a" />
+					<Add library="libuuid.a" />
+					<Add library="libkernel32.a" />
+					<Add library="libwinmm.a" />
+					<Add library="libpsapi.a" />
+					<Add library="libopengl32.a" />
+					<Add library="libglu32.a" />
+					<Add library="libuser32.a" />
+					<Add library="libcomdlg32.a" />
+					<Add library="libgdi32.a" />
+					<Add library="libshell32.a" />
+					<Add library="libole32.a" />
+					<Add library="libadvapi32.a" />
+					<Add library="libws2_32.a" />
+					<Add library="libshlwapi.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/allegro5_codeblocks_template" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="liballegro-5.0.10-monolith-static-mt.a" />
+					<Add library="liballegro-5.0.10-static-mt.a" />
+					<Add library="liballegro_acodec-5.0.10-static-mt.a" />
+					<Add library="liballegro_audio-5.0.10-static-mt.a" />
+					<Add library="libvorbisfile-1.3.2-static-mt.a" />
+					<Add library="libvorbis-1.3.2-static-mt.a" />
+					<Add library="liballegro_color-5.0.10-static-mt.a" />
+					<Add library="liballegro_dialog-5.0.10-static-mt.a" />
+					<Add library="liballegro_font-5.0.10-static-mt.a" />
+					<Add library="liballegro_image-5.0.10-static-mt.a" />
+					<Add library="liballegro_memfile-5.0.10-static-mt.a" />
+					<Add library="liballegro_physfs-5.0.10-static-mt.a" />
+					<Add library="liballegro_primitives-5.0.10-static-mt.a" />
+					<Add library="liballegro_ttf-5.0.10-static-mt.a" />
+					<Add library="libdumb-0.9.3-static-mt.a" />
+					<Add library="libFLAC-1.2.1-static-mt.a" />
+					<Add library="libfreetype-2.4.8-static-mt.a" />
+					<Add library="libogg-1.2.1-static-mt.a" />
+					<Add library="libzlib-1.2.5-static-mt.a" />
+					<Add library="libopenal-1.14-static-mt.a" />
+					<Add library="libgdiplus.a" />
+					<Add library="libuuid.a" />
+					<Add library="libkernel32.a" />
+					<Add library="libwinmm.a" />
+					<Add library="libpsapi.a" />
+					<Add library="libopengl32.a" />
+					<Add library="libglu32.a" />
+					<Add library="libuser32.a" />
+					<Add library="libcomdlg32.a" />
+					<Add library="libgdi32.a" />
+					<Add library="libshell32.a" />
+					<Add library="libole32.a" />
+					<Add library="libadvapi32.a" />
+					<Add library="libws2_32.a" />
+					<Add library="libshlwapi.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/allegro5/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+			<Add directory="C:/allegro5/lib" />
+			<Add directory="C:/mingw/lib" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
